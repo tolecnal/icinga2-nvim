@@ -1,0 +1,55 @@
+# icinga2-nvim
+
+Modern Neovim plugin providing syntax highlighting and filetype detection for Icinga 2 configuration files.
+
+## Features
+
+- Native Neovim filetype detection (Lua)
+- Full syntax highlighting (Vimscript syntax file)
+- Easy install via plugin managers or manual clone
+
+## Installation
+
+### Using lazy.nvim
+```lua
+{
+  "tolecnal/icinga2-nvim",
+  config = function()
+    require("icinga2")
+  end,
+}
+````
+
+### Using packer.nvim
+
+```lua
+use({
+  "tolecnal/icinga2-nvim",
+  config = function()
+    require("icinga2")
+  end,
+})
+```
+
+### Manual
+
+Clone into your runtime path:
+
+```bash
+git clone <this-repo> ~/.local/share/nvim/site/pack/plugins/start/icinga2-nvim
+```
+
+## Usage
+
+Open an Icinga 2 configuration file (e.g. `/etc/icinga2/icinga2.conf`) and verify:
+
+```
+:set filetype?
+```
+
+You should see `filetype=icinga2` and syntax highlighting should apply.
+
+## License
+
+MIT
+
