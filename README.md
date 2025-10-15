@@ -11,6 +11,7 @@ Modern Neovim plugin providing syntax highlighting and filetype detection for Ic
 ## Installation
 
 ### Using lazy.nvim
+
 ```lua
 {
   "tolecnal/icinga2-nvim",
