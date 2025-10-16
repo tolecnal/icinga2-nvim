@@ -15,10 +15,10 @@ Modern Neovim plugin providing syntax highlighting and filetype detection for Ic
 
 ```lua
 {
-"tolecnal/icinga2-nvim",
-config = function()
-require("icinga2-nvim").setup()
-end,
+  "tolecnal/icinga2-nvim",
+  config = function()
+  require("icinga2-nvim").setup()
+  end,
 }
 ```
 
@@ -26,10 +26,10 @@ end,
 
 ```lua
 use({
-"tolecnal/icinga2-nvim",
-config = function()
-require("icinga2-nvim").setup()
-end,
+  "tolecnal/icinga2-nvim",
+  config = function()
+  require("icinga2-nvim").setup()
+  end,
 })
 ```
 
