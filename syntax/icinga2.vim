@@ -125,7 +125,7 @@ hi def link icinga2Duration Number
 hi def link icinga2String String
 hi def link icinga2MultiString String
 hi def link icinga2Escape SpecialChar
-hi def link icinga2RuntimeMacro Identifier
+hi def link icinga2RuntimeMacro Label
 hi def link icinga2Identifier Identifier
 hi def link icinga2Special Special
 
