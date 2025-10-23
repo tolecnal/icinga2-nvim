@@ -87,8 +87,7 @@ syn match icinga2Number "\<\d\+\.\d\+\>"
 syn match icinga2Number "\<0x\x\+\>"
 
 " Duration Literals
-" Replaced broken pattern with proper Vim regex syntax
-syn match icinga2Duration "<\d+(.\d+)?(ms|[smhd])>" 
+syn match icinga2Duration "\<\d\+\(\.\d\+\)\?\(ms\|[smhd]\)\>"
 
 " Runtime Macros
 syn match icinga2RuntimeMacro "\$[a-zA-Z_][a-zA-Z0-9_\.]*\$" contained
